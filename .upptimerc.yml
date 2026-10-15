@@ -1,31 +1,51 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Configuração do Upptime para status.villasi.com.br (requirements.md §6.4, design.md §9.5).
+# Este arquivo vai para a raiz do repositório rvsigor/villasi-status, criado a partir do
+# modelo upptime/upptime. O Upptime roda no GitHub Actions e publica a página no GitHub Pages,
+# fora do Render: se o sistema cair, a página de status continua no ar.
+owner: rvsigor
+repo: villasi-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Sistema (painel)
+    url: https://painel.villasi.com.br/api/saude
+    expectedStatusCodes:
+      - 200
+  - name: Página do Villasi
+    url: https://www.villasi.com.br
+  - name: Central de ajuda
+    url: https://help.villasi.com.br
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.villasi.com.br
+  name: Situação do Villasi
+  introTitle: "Situação do **Villasi**"
+  introMessage: Aqui você vê se o sistema está funcionando e o histórico de quedas. Se algo estiver fora do ar, já estamos cuidando.
+  logoUrl: https://www.villasi.com.br/marca/villasi-simbolo.svg
+  favicon: https://www.villasi.com.br/favicon.svg
+  theme: light
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Ajuda
+      href: https://help.villasi.com.br
+    - title: Entrar
+      href: https://painel.villasi.com.br
+  i18n:
+    up: Funcionando
+    down: Fora do ar
+    degraded: Lento
+    operational: Todos os sistemas funcionando
+    liveStatus: Situação agora
+    pastIncidents: Ocorrências anteriores
+    allSystemsOperational: Todos os sistemas funcionando
+    activeIncidents: Problemas em andamento
+    averageResponseTime: Tempo médio de resposta
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+workflowSchedule:
+  uptime: "*/5 * * * *"
+  responseTime: "0 */6 * * *"
+  graphs: "0 0 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"

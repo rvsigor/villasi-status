@@ -4,19 +4,20 @@
     "url": "https://painel.villasi.com.br/api/saude",
     "icon": "https://icons.duckduckgo.com/ip3/painel.villasi.com.br.ico",
     "slug": "sistema-painel",
-    "status": "up",
-    "uptime": "98.55%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.55%",
-    "uptimeYear": "98.55%",
-    "time": 406,
-    "timeDay": 334,
-    "timeWeek": 411,
-    "timeMonth": 406,
-    "timeYear": 406,
+    "status": "down",
+    "uptime": "98.58%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "98.58%",
+    "uptimeYear": "98.58%",
+    "time": 403,
+    "timeDay": 322,
+    "timeWeek": 405,
+    "timeMonth": 403,
+    "timeYear": 403,
     "dailyMinutesDown": {
-      "2026-10-15": 284
+      "2026-10-15": 284,
+      "2026-10-29": 1
     }
   },
   {
@@ -24,19 +25,20 @@
     "url": "https://www.villasi.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/www.villasi.com.br.ico",
     "slug": "pagina-do-villasi",
-    "status": "up",
-    "uptime": "98.56%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "98.58%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.56%",
-    "uptimeYear": "98.56%",
-    "time": 732,
-    "timeDay": 681,
-    "timeWeek": 768,
-    "timeMonth": 732,
-    "timeYear": 732,
+    "uptimeMonth": "98.58%",
+    "uptimeYear": "98.58%",
+    "time": 727,
+    "timeDay": 625,
+    "timeWeek": 756,
+    "timeMonth": 727,
+    "timeYear": 727,
     "dailyMinutesDown": {
-      "2026-10-15": 283
+      "2026-10-15": 283,
+      "2026-10-29": 0
     }
   },
   {
@@ -44,19 +46,20 @@
     "url": "https://help.villasi.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/help.villasi.com.br.ico",
     "slug": "central-de-ajuda",
-    "status": "up",
-    "uptime": "98.56%",
+    "status": "down",
+    "uptime": "98.58%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.56%",
-    "uptimeYear": "98.56%",
-    "time": 356,
-    "timeDay": 381,
-    "timeWeek": 365,
-    "timeMonth": 356,
-    "timeYear": 356,
+    "uptimeMonth": "98.58%",
+    "uptimeYear": "98.58%",
+    "time": 354,
+    "timeDay": 328,
+    "timeWeek": 361,
+    "timeMonth": 354,
+    "timeYear": 354,
     "dailyMinutesDown": {
-      "2026-10-15": 283
+      "2026-10-15": 283,
+      "2026-10-29": 0
     }
   }
 ]

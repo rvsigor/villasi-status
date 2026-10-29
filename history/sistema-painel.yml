@@ -1,7 +1,7 @@
 url: https://painel.villasi.com.br/api/saude
-status: up
-code: 200
-responseTime: 347
-lastUpdated: 2026-10-29T04:05:06.702Z
+status: down
+code: 503
+responseTime: 313
+lastUpdated: 2026-10-29T08:55:59.572Z
 startTime: 2026-10-15T12:23:37.090Z
 generator: Upptime <https://github.com/upptime/upptime>
